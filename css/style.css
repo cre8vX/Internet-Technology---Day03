@@ -56,3 +56,36 @@ p {
     padding: 0;
 } */
 
+body{
+    background-image: url("../img/bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pg02-background{
+    background-color:aquamarine;
+    margin: 20px;
+    padding: 10px;
+}
+
+#box01{
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: static; */
+    position: sticky; 
+    z-index: -1;
+    top: 10px;
+    bottom: 20px;
+    left: 70px;
+}
+
+#box02{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+}
